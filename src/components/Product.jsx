@@ -11,6 +11,7 @@ const Product = () => {
           <p className="font-medium md:text-lg text-md">Explore out Top Products made with premium natural ingredients. These Formulas are designed to hydrate.</p>
         </motion.div>
         
+        
         <motion.div initial={{ opacity: 0, y: -50}} whileInView={{ opacity: 1, y: 0}} transition={{ duration: 0.8, ease: 'easeOut'}} viewport={{ once: true, amount: 0.4 }} className="mt-16 flex md:flex-row flex-col w-[80%]  bg-gray-200 rounded-2xl items-center">
 
           <div className="flex items-start md:w-1/2 w-full">
